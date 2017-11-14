@@ -6,30 +6,66 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"strings"
 
 	"github.com/PuerkitoBio/goquery"
 )
 
-func Scrape() {
+func isEmpty(str string) bool {
+	if len(str) == 0 {
+		return true
+	}
+	return false
+}
+
+func scrape() {
 	doc, err := goquery.NewDocument("https://www.governmentjobs.com/jobs?keyword=cyber+security+&location=")
 	if err != nil {
 		log.Fatal(err)
 	}
 	pos := make([]string, 0)
 	app := make([]string, 0)
+	loc := make([]string, 0)
+	emp := make([]string, 0)
+	desc := make([]string, 0)
 	doc.Find(".job-item").Each(func(i int, s *goquery.Selection) {
 		title := s.Find("a").Text()
+		title = strings.Replace(title, ",", " ", -1)
 		pos = append(pos, title)
 
 	})
+
 	url := "https://www.governmentjobs.com"
 	doc.Find(".job-details-link").Each(func(i int, s *goquery.Selection) {
 		title, _ := s.Attr("href")
-		app = append(app, title)
+		app = append(app, url+title)
 
 	})
+
+	doc.Find(".job-item .primaryInfo").Each(func(i int, s *goquery.Selection) {
+		if i%2 == 0 {
+			title := s.Text()
+			title = strings.TrimSpace(title)
+			title = strings.Replace(title, ",", " ", -1)
+			loc = append(loc, title)
+
+		} else {
+			title := s.Text()
+			title = strings.TrimSpace(title)
+			title = strings.Replace(title, ",", ".", -1)
+			emp = append(emp, title)
+
+		}
+
+	})
+	doc.Find(".job-item .description").Each(func(i int, s *goquery.Selection) {
+		title := s.Text()
+		title = strings.Replace(title, ",", " ", -1)
+		desc = append(desc, title)
+	})
+
 	for i := range pos {
-		fmt.Printf("Government Job %d: %s - %s\n", (i + 1), pos[i], url+app[i])
+		fmt.Printf("%s , %s , %s , %s , %s \n", pos[i], app[i], loc[i], emp[i], desc[i])
 	}
 
 }
@@ -66,7 +102,7 @@ func ExampleQuery() {
 }
 func main() {
 
-	Scrape()
+	scrape()
 	//getLinks()
 
 }
