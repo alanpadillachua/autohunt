@@ -10,19 +10,28 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-func ExampleScrape() {
+func Scrape() {
 	doc, err := goquery.NewDocument("https://www.governmentjobs.com/jobs?keyword=cyber+security+&location=")
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	// Find the review items
+	pos := make([]string, 0)
+	app := make([]string, 0)
 	doc.Find(".job-item").Each(func(i int, s *goquery.Selection) {
-		// For each item found, get the band and title
 		title := s.Find("a").Text()
-		//title := s.Find("i").Text()
-		fmt.Printf("Government Job %d: %s \n", (i + 1), title)
+		pos = append(pos, title)
+
 	})
+	url := "https://www.governmentjobs.com"
+	doc.Find(".job-details-link").Each(func(i int, s *goquery.Selection) {
+		title, _ := s.Attr("href")
+		app = append(app, title)
+
+	})
+	for i := range pos {
+		fmt.Printf("Government Job %d: %s - %s\n", (i + 1), pos[i], url+app[i])
+	}
+
 }
 
 func ExampleQuery() {
@@ -57,5 +66,7 @@ func ExampleQuery() {
 }
 func main() {
 
-	ExampleScrape()
+	Scrape()
+	//getLinks()
+
 }
