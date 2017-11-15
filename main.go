@@ -8,8 +8,10 @@ import (
 	"net/http"
 	"os"
 	"strings"
+	"time"
 
 	"github.com/PuerkitoBio/goquery"
+	spinner "github.com/janeczku/go-spinner"
 	"github.com/urfave/cli"
 )
 
@@ -96,11 +98,15 @@ func query() {
 	defer resp.Body.Close()
 }
 func main() {
+
 	app := cli.NewApp()
 	app.Name = "autohunt"
 	app.Usage = "Automatically search for jobs/internships in cyber security field"
 	app.Action = func(c *cli.Context) error {
 		fmt.Printf("searching for... %q \n", c.Args().Get(0))
+		s := spinner.StartNew("This may take some while...")
+		time.Sleep(5 * time.Second) // something more productive here
+		s.Stop()
 		return nil
 	}
 
