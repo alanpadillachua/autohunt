@@ -6,20 +6,15 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
+	"github.com/urfave/cli"
 )
 
-func isEmpty(str string) bool {
-	if len(str) == 0 {
-		return true
-	}
-	return false
-}
-
 func scrape() {
-	doc, err := goquery.NewDocument("https://www.governmentjobs.com/jobs?keyword=cyber+security+&location=")
+	doc, err := goquery.NewDocument("https://www.governmentjobs.com/jobs?page=1&keyword=cyber+security+&location=")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -70,7 +65,7 @@ func scrape() {
 
 }
 
-func ExampleQuery() {
+func query() {
 	req, err := http.NewRequest("GET", "https://data.usajobs.gov/api/search?JobCategoryCode=2210", nil)
 	if err != nil {
 		// handle err
@@ -101,8 +96,16 @@ func ExampleQuery() {
 	defer resp.Body.Close()
 }
 func main() {
+	app := cli.NewApp()
+	app.Name = "autohunt"
+	app.Usage = "Automatically search for jobs/internships in cyber security field"
+	app.Action = func(c *cli.Context) error {
+		fmt.Printf("searching for... %q \n", c.Args().Get(0))
+		return nil
+	}
 
-	scrape()
-	//getLinks()
+	app.Run(os.Args)
+	//scrape()
+	//query s
 
 }
