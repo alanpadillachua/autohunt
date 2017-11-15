@@ -20,11 +20,11 @@ func scrape() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	pos := make([]string, 0)
-	app := make([]string, 0)
-	loc := make([]string, 0)
-	emp := make([]string, 0)
-	desc := make([]string, 0)
+	pos := make([]string, 0)  // position title
+	app := make([]string, 0)  // application link
+	loc := make([]string, 0)  // location
+	emp := make([]string, 0)  // employment type and pay i.e. full time / part time
+	desc := make([]string, 0) // job description
 	doc.Find(".job-item").Each(func(i int, s *goquery.Selection) {
 		title := s.Find("a").Text()
 		title = strings.Replace(title, ",", " ", -1)
@@ -103,7 +103,7 @@ func main() {
 	app.Name = "autohunt"
 	app.Usage = "Automatically search for jobs/internships in cyber security field"
 	app.Action = func(c *cli.Context) error {
-		fmt.Printf("searching for... %q \n", c.Args().Get(0))
+		fmt.Printf("searching for... %q\n", c.Args().Get(0))
 		s := spinner.StartNew("This may take some while...")
 		time.Sleep(5 * time.Second) // something more productive here
 		s.Stop()
