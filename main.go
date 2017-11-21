@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/csv"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -8,34 +9,65 @@ import (
 	"net/http"
 	"os"
 	"strings"
-	"time"
 
 	"github.com/PuerkitoBio/goquery"
 	spinner "github.com/janeczku/go-spinner"
 	"github.com/urfave/cli"
 )
 
-func scrape() {
+func writeCSVHeader(out *csv.Writer) error {
+	line := []string{"Position", "Application Link", "Location", "Employment Type", "Description"}
+	err := out.Write(line)
+	return err
+}
+
+func checkError(message string, err error) {
+	if err != nil {
+		log.Fatal(message, err)
+	}
+}
+
+type jobs struct {
+	pos  []string `csv:"Position"`
+	link []string `csv:"Application Link"`
+	loc  []string `csv:"Location"`
+	emp  []string `csv:"Employment Type"`
+	desc []string `csv:"Description"`
+}
+
+func (j *jobs) MarshalCSV(id int) ([]string, error) {
+	line := make([]string, 0)
+	line = append(line, j.pos[id])
+	line = append(line, j.link[id])
+	line = append(line, j.loc[id])
+	line = append(line, j.emp[id])
+	line = append(line, j.desc[id])
+	//line := fmt.Sprintf("%s , %s , %s , %s , %s", j.pos[id], j.link[id], j.loc[id], j.emp[id], j.desc[id])
+	return line, nil
+}
+
+func scrape(list jobs, out *csv.Writer) {
 	doc, err := goquery.NewDocument("https://www.governmentjobs.com/jobs?page=1&keyword=cyber+security+&location=")
 	if err != nil {
 		log.Fatal(err)
 	}
-	pos := make([]string, 0)  // position title
+	/*pos := make([]string, 0)  // position title
 	app := make([]string, 0)  // application link
 	loc := make([]string, 0)  // location
 	emp := make([]string, 0)  // employment type and pay i.e. full time / part time
-	desc := make([]string, 0) // job description
+	desc := make([]string, 0) // job description*/
+
 	doc.Find(".job-item").Each(func(i int, s *goquery.Selection) {
 		title := s.Find("a").Text()
 		title = strings.Replace(title, ",", " ", -1)
-		pos = append(pos, title)
+		list.pos = append(list.pos, title)
 
 	})
 
 	url := "https://www.governmentjobs.com"
 	doc.Find(".job-details-link").Each(func(i int, s *goquery.Selection) {
 		title, _ := s.Attr("href")
-		app = append(app, url+title)
+		list.link = append(list.link, url+title)
 
 	})
 
@@ -44,13 +76,13 @@ func scrape() {
 			title := s.Text()
 			title = strings.TrimSpace(title)
 			title = strings.Replace(title, ",", " ", -1)
-			loc = append(loc, title)
+			list.loc = append(list.loc, title)
 
 		} else {
 			title := s.Text()
 			title = strings.TrimSpace(title)
 			title = strings.Replace(title, ",", ".", -1)
-			emp = append(emp, title)
+			list.emp = append(list.emp, title)
 
 		}
 
@@ -58,11 +90,16 @@ func scrape() {
 	doc.Find(".job-item .description").Each(func(i int, s *goquery.Selection) {
 		title := s.Text()
 		title = strings.Replace(title, ",", " ", -1)
-		desc = append(desc, title)
+		list.desc = append(list.desc, title)
 	})
 
-	for i := range pos {
-		fmt.Printf("%s , %s , %s , %s , %s \n", pos[i], app[i], loc[i], emp[i], desc[i])
+	for i := range list.pos {
+		csvContent, err := list.MarshalCSV(i) // Get all clients as CSV string
+		checkError("MarshalCSV error", err)
+		err = out.Write(csvContent)
+		checkError("Write to File error", err)
+		//fmt.Println(csvContent) // Display all clients as CSV string
+		//fmt.Printf("%s , %s , %s , %s , %s \n", list.pos[i], list.link[i], list.loc[i], list.emp[i], list.desc[i])
 	}
 
 }
@@ -99,19 +136,31 @@ func query() {
 }
 func main() {
 
+	nonFedJobs := jobs{} // hold jobs found for non federal jobs
+
+	file, err := os.Create("autohunt_results.csv")
+	checkError("Cannot write to file", err)
+	defer file.Close()
+	writer := csv.NewWriter(file)
+	defer writer.Flush()
+	err = writeCSVHeader(writer)
+	checkError("Header Write Error", err)
 	app := cli.NewApp()
 	app.Name = "autohunt"
 	app.Usage = "Automatically search for jobs/internships in cyber security field"
 	app.Action = func(c *cli.Context) error {
 		fmt.Printf("searching for... %q\n", c.Args().Get(0))
-		s := spinner.StartNew("This may take some while...")
-		time.Sleep(5 * time.Second) // something more productive here
+		s := spinner.StartNew("This wont take long...")
+		fmt.Println()
+		scrape(nonFedJobs, writer)
+
+		//time.Sleep(5 * time.Second) // something more productive here
 		s.Stop()
 		return nil
 	}
 
 	app.Run(os.Args)
-	//scrape()
+
 	//query s
 
 }
