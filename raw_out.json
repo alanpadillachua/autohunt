@@ -1,0 +1,1018 @@
+{
+    "LanguageCode": "EN",
+    "SearchParameters": {},
+    "SearchResult": {
+        "SearchResultCount": 10,
+        "SearchResultCountAll": 192,
+        "SearchResultItems": [{
+                "MatchedObjectId": "462291700",
+                "MatchedObjectDescriptor": {
+                    "PositionID": "SPP-Register",
+                    "PositionTitle": "Selective Placement Program (Noncompetitive Appointments for Applicants with Disabilities)",
+                    "PositionURI": "https://www.usajobs.gov:443/GetJob/ViewDetails/462291700",
+                    "ApplyURI": [
+                        "https://www.usajobs.gov:443/GetJob/ViewDetails/462291700?PostingChannelID=RESTAPI"
+                    ],
+                    "PositionLocationDisplay": "Multiple Locations",
+                    "PositionLocation": [{
+                            "LocationName": "Washington DC, District of Columbia",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "District of Columbia",
+                            "CityName": "Washington DC, District of Columbia",
+                            "Longitude": -77.032,
+                            "Latitude": 38.8904
+                        },
+                        {
+                            "LocationName": "Landover, Maryland",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Maryland",
+                            "CityName": "Landover, Maryland",
+                            "Longitude": -76.89111,
+                            "Latitude": 38.930954
+                        },
+                        {
+                            "LocationName": "Culpeper, Virginia",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Virginia",
+                            "CityName": "Culpeper, Virginia",
+                            "Longitude": -77.99614,
+                            "Latitude": 38.47333
+                        }
+                    ],
+                    "OrganizationName": "Library of Congress",
+                    "DepartmentName": "Legislative Branch",
+                    "JobCategory": [{
+                            "Name": "Social Science",
+                            "Code": "0101"
+                        },
+                        {
+                            "Name": "Miscellaneous Administration And Program",
+                            "Code": "0301"
+                        },
+                        {
+                            "Name": "Librarian",
+                            "Code": "1410"
+                        },
+                        {
+                            "Name": "Copyright",
+                            "Code": "1210"
+                        },
+                        {
+                            "Name": "Information Technology Management",
+                            "Code": "2210"
+                        }
+                    ],
+                    "JobGrade": [{
+                        "Code": "GS"
+                    }],
+                    "PositionSchedule": [{
+                        "Name": "Open",
+                        "Code": "1"
+                    }],
+                    "PositionOfferingType": [{
+                        "Name": "Temporary (Not To Exceed a period of 120 days to 2 years, depending on qualifications of applicant)",
+                        "Code": "15317"
+                    }],
+                    "QualificationSummary": "Education: Some positions may require specific training, education and/or degrees depending on the series and grade level of the position being filled.Experience: Applicants must have had progressively responsible experience and training sufficient in scope and quality to furnish them with an acceptable level of knowledge, skills, and abilities to perform the duties of the position. The DETAILED description of your work experience in your personal resume must clearly demonstrate that you have gained and currently posess the knowledge, skills and abilities to satisfactorily perform the duties of the position being filled. Transcripts and certifications provided as proof of qualifying education and/or training must be submitted at the time of application.To view qualification requirements for all series, click on the following link: https://www.opm.gov/policy-data-oversight/classification-qualifications/general-schedule-qualification-standards/.Part-Time, Volunteer or Unpaid Experience: Credit will be given for appropriate undpaid and/or part-time work. You must clearly identify the duties and responsibilities in each position held and the total number of hours worked per week. Volunteer work experience can include work done through National Service Programs (i.e., Peace Corps, Americorps) and other organizations (e.g., professional, pilanthropic, religious, spiritual, community, student and social).",
+                    "PositionRemuneration": [{
+                        "MinimumRange": "23547.0",
+                        "MaximumRange": "161900.0",
+                        "RateIntervalCode": "Per Year"
+                    }],
+                    "PositionStartDate": "2017-01-12",
+                    "PositionEndDate": "2017-12-29",
+                    "PublicationStartDate": "2017-01-12",
+                    "ApplicationCloseDate": "2017-12-29",
+                    "PositionFormattedDescription": [{
+                        "Label": "Dynamic Teaser",
+                        "LabelDescription": "Hit highlighting for keyword searches."
+                    }],
+                    "UserArea": {
+                        "Details": {
+                            "JobSummary": "The Library of Congress is accepting applications from people who wish to be considered for employment at the Library under its Selective Placement Program (SPP). It is the policy of the Library to recruit and hire qualified applicants with targeted disabilities by assisting these individuals in obtaining employment consistent with their level of skills and abilities and their capacity for safe and efficient job performance. Targeted disabilities include, but are not limited to severe physical, cognitive, or emotional disabilities. The SPP program is open to applicants who have, or who have a history of having, a severe disability as listed above. Applicants with disabilities wishing to be considered for employment at the Library may apply using this announcement and must (1) have appropriate certification of their disability (Details in JOB REQUIREMENTS), (2) show that they have the qualifications for the job, and (3) satisfy the requirements/conditions for employment. By responding to this announcement you are applying to a resume database. Your resume and any documents submitted will be retained for two years and may be used at any time during that period. When a position is requested to be filled under the SPP hiring authority, a list of applicants will be provided to management for review and possible selection. Additional information on the Library's Selective Placement Program can be found at: https://www.loc.gov/hr/employment/LOCSelectivePlacementProgram.pdf.Applicants wishing to be considered for employment at the Library through the SPP may also submit an application using the Library&#8217;s competitive selection process by responding to a specific job opportunity announcement listed on the Library&#8217;s job opportunity page at http://www.loc.gov/hr/employment/index.php?action=cMain.showJobs.The salary range indicated reflects the wide range of grades/salaries which may be filled through this process and includes locality pay adjustments for the Washington, D.C., Metropolitan area. Appointments under this program do not have promotion potential beyond the grade to which the applicant is initially appointed.The incumbent of this position may request to work a flextime work schedule.Some positions may involve travel.This may be a supervisory or non-supervisory position and may be a bargaining unit position, if not excluded by regulation.Relocation expenses will not be authorized for any person(s) selected under this vacancy announcement.",
+                            "WhoMayApply": {
+                                "Name": "U.S. Citizens with a certified, severe intellectual, physical or psychiatric disability.",
+                                "Code": "15669"
+                            },
+                            "LowGrade": "01",
+                            "HighGrade": "01"
+                        },
+                        "IsRadialSearch": false
+                    }
+                },
+                "RelevanceRank": 0
+            },
+            {
+                "MatchedObjectId": "466482200",
+                "MatchedObjectDescriptor": {
+                    "PositionID": "NE72210-13-1933083XXXXXXXXE",
+                    "PositionTitle": "IT Specialist",
+                    "PositionURI": "https://www.usajobs.gov:443/GetJob/ViewDetails/466482200",
+                    "ApplyURI": [
+                        "https://www.usajobs.gov:443/GetJob/ViewDetails/466482200?PostingChannelID=RESTAPI"
+                    ],
+                    "PositionLocationDisplay": "Multiple Locations",
+                    "PositionLocation": [{
+                            "LocationName": "Yuma, Arizona",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Arizona",
+                            "CityName": "Yuma, Arizona",
+                            "Longitude": -114.624611,
+                            "Latitude": 32.68485
+                        },
+                        {
+                            "LocationName": "China Lake, California",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "California",
+                            "CityName": "China Lake, California",
+                            "Longitude": -117.67,
+                            "Latitude": 35.6506
+                        },
+                        {
+                            "LocationName": "Lemoore, California",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "California",
+                            "CityName": "Lemoore, California",
+                            "Longitude": -119.786,
+                            "Latitude": 36.301
+                        },
+                        {
+                            "LocationName": "Point Mugu, California",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "California",
+                            "CityName": "Point Mugu, California",
+                            "Longitude": -119.06,
+                            "Latitude": 34.08556
+                        },
+                        {
+                            "LocationName": "San Diego, California",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "California",
+                            "CityName": "San Diego, California",
+                            "Longitude": -117.162,
+                            "Latitude": 32.7157
+                        },
+                        {
+                            "LocationName": "Groton, Connecticut",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Connecticut",
+                            "CityName": "Groton, Connecticut",
+                            "Longitude": -72.07072,
+                            "Latitude": 41.354847
+                        },
+                        {
+                            "LocationName": "Washington DC, District of Columbia",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "District of Columbia",
+                            "CityName": "Washington DC, District of Columbia",
+                            "Longitude": -77.032,
+                            "Latitude": 38.8904
+                        },
+                        {
+                            "LocationName": "Duval County, Florida",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Florida",
+                            "CityName": "Duval County, Florida",
+                            "Longitude": -81.64118,
+                            "Latitude": 30.33668
+                        },
+                        {
+                            "LocationName": "Jacksonville, Florida",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Florida",
+                            "CityName": "Jacksonville, Florida",
+                            "Longitude": -81.6558,
+                            "Latitude": 30.33138
+                        },
+                        {
+                            "LocationName": "Jacksonville, Florida",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Florida",
+                            "CityName": "Jacksonville, Florida",
+                            "Longitude": -81.6558,
+                            "Latitude": 30.33138
+                        },
+                        {
+                            "LocationName": "Milton, Florida",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Florida",
+                            "CityName": "Milton, Florida",
+                            "Longitude": -87.0382,
+                            "Latitude": 30.6336
+                        },
+                        {
+                            "LocationName": "Naval Air Station Jacksonville , Florida",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Florida",
+                            "CityName": "Naval Air Station Jacksonville , Florida",
+                            "Longitude": -81.68085,
+                            "Latitude": 30.2363949
+                        },
+                        {
+                            "LocationName": "Naval Air Station Pensacola , Florida",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Florida",
+                            "CityName": "Naval Air Station Pensacola , Florida",
+                            "Longitude": -87.2867,
+                            "Latitude": 30.3558674
+                        },
+                        {
+                            "LocationName": "Kaneohe, Hawaii",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Hawaii",
+                            "CityName": "Kaneohe, Hawaii",
+                            "Longitude": -157.804,
+                            "Latitude": 21.4215
+                        },
+                        {
+                            "LocationName": "Pearl Harbor Naval Base, Oahu, Hawaii",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Hawaii",
+                            "CityName": "Pearl Harbor Naval Base, Oahu, Hawaii",
+                            "Longitude": -157.9795,
+                            "Latitude": 21.3819447
+                        },
+                        {
+                            "LocationName": "Emmet County, Iowa",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Iowa",
+                            "CityName": "Emmet County, Iowa",
+                            "Longitude": -94.67845,
+                            "Latitude": 43.37789
+                        },
+                        {
+                            "LocationName": "Great Lakes, Illinois",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Illinois",
+                            "CityName": "Great Lakes, Illinois",
+                            "Longitude": -87.8603,
+                            "Latitude": 42.3084
+                        },
+                        {
+                            "LocationName": "Patuxent River, Maryland",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Maryland",
+                            "CityName": "Patuxent River, Maryland",
+                            "Longitude": -76.7301,
+                            "Latitude": 38.756
+                        },
+                        {
+                            "LocationName": "Saint Inigoes, Maryland",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Maryland",
+                            "CityName": "Saint Inigoes, Maryland",
+                            "Longitude": -76.39059,
+                            "Latitude": 38.147934
+                        },
+                        {
+                            "LocationName": "Cherry Point, North Carolina",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "North Carolina",
+                            "CityName": "Cherry Point, North Carolina",
+                            "Longitude": -76.82216,
+                            "Latitude": 34.94016
+                        },
+                        {
+                            "LocationName": "Lakehurst, New Jersey",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "New Jersey",
+                            "CityName": "Lakehurst, New Jersey",
+                            "Longitude": -74.3099,
+                            "Latitude": 40.0124
+                        },
+                        {
+                            "LocationName": "Newport, Rhode Island",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Rhode Island",
+                            "CityName": "Newport, Rhode Island",
+                            "Longitude": -71.3113556,
+                            "Latitude": 41.4921265
+                        },
+                        {
+                            "LocationName": "Arlington, Virginia",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Virginia",
+                            "CityName": "Arlington, Virginia",
+                            "Longitude": -77.0862961,
+                            "Latitude": 38.89051
+                        },
+                        {
+                            "LocationName": "Norfolk, Virginia",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Virginia",
+                            "CityName": "Norfolk, Virginia",
+                            "Longitude": -76.28507,
+                            "Latitude": 36.8468246
+                        },
+                        {
+                            "LocationName": "Virginia Beach, Virginia",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Virginia",
+                            "CityName": "Virginia Beach, Virginia",
+                            "Longitude": -75.97791,
+                            "Latitude": 36.850563
+                        },
+                        {
+                            "LocationName": "Naval Air Station Whidbey Island, Washington",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Washington",
+                            "CityName": "Naval Air Station Whidbey Island, Washington",
+                            "Longitude": -122.65583,
+                            "Latitude": 48.351944
+                        }
+                    ],
+                    "OrganizationName": "Naval Air Systems Command",
+                    "DepartmentName": "Department of the Navy",
+                    "JobCategory": [{
+                        "Name": "Information Technology Management",
+                        "Code": "2210"
+                    }],
+                    "JobGrade": [{
+                        "Code": "GS"
+                    }],
+                    "PositionSchedule": [{
+                        "Name": "Full Time",
+                        "Code": "1"
+                    }],
+                    "PositionOfferingType": [{
+                        "Name": "Permanent",
+                        "Code": "15317"
+                    }],
+                    "QualificationSummary": "In order to qualify for this position, your resume must provide sufficient experience and/or education, knowledge, skills, and abilities, to perform the duties of the specific position for which you are being considered. Your resume is the key means we have for evaluating your skills, knowledge, and abilities, as they relate to this position. Therefore, we encourage you to be clear and specific when describing your experience.The basic requirement is: IT-related experience demonstrating the following four competencies: Attention to Detail - I am able to review data from multiple sources and determine relevant information to a given situation. I draft, edit and disseminate written reports and status updates that are factual, timely and relatively error free. Customer Service - I develop and maintain relationships with customers with diverse needs. I provide technical information about products and services. I assess the needs of customers and identify or tailor products and/or services to meet their needs. I resolve non-routine problems, questions, or complaints and direct the most complex problems, questions, or complaints to the appropriate person. Oral Communication - I communicate, explain, or defend ideas or information clearly. I listen to others and recognize potential miscommunications. Problem Solving - I use logic to identify alternatives to solve technical problems. I identify and solve problems by gathering and applying information from a variety of materials or sources that provide several alternatives. GS-09 Requirements:Applicants must have at least one or more years of specialized experience that\nhas provided me with the necessary knowledge, skills and abilities to perform\nthe duties of an IT Specialist GS-09.\nSpecialized experience is: 1) evaluating system performance data to identify\nand address inefficiencies; 2) identifying problems, ascertaining root cause\nand impact, and providing recommendations for resolution. OR a master's degree or equivalent graduate degree\nOR 2 full years of progressively higher level graduate education leading to a\nmaster's degree or equivalent graduate degree in computer science, engineering,\ninformation science, information systems management, mathematics, operations\nresearch, statistics, or technology management or degree that provided a\nminimum of 24 semester hours in one or more of the fields identified above and\nrequired the development or adaptation of applications, systems or networks. GS-11 Requirements:Applicants must have at least one or more years of specialized\nexperience that has provided me with the necessary knowledge, skills and\nabilities to perform the duties of an IT Specialist GS-11. Specialized experience is: 1) evaluating\nsystem performance data to identify and address inefficiencies; 2) evaluating\nsystem performance data to identify and address inefficiencies; and 3)\nproviding oversight in the integration of information technology systems to\nensure compliance with software and business requirements. OR a Ph.D. or equivalent doctoral degree OR 3 full\nyears of progressively higher level graduate education leading to a Ph.D. or\nequivalent doctoral degree in computer science, engineering, information\nscience, information systems management, mathematics, operations research,\nstatistics, or technology management or degree that provided a minimum of 24\nsemester hours in one or more of the fields identified above and required the\ndevelopment or adaptation of applications, systems or networks.GS-12 Requirements:Applicants must have at least one or more years of progressively related specialized experience in the\nsame or similar work at a level of difficulty and responsibility that has\nequipped you with the necessary knowledge, skills or abilities to perform\nsuccessfully the duties of an IT Specialist GS-12. Creditable specialized experience includes: 1)\nevaluating system performance data to identify and address inefficiencies; 2)\nproviding oversight in the integration of information technology systems to\nensure compliance with software and business requirements; and 3) providing guidance in the development\nand implementation of information technology policies and procedures. GS-13 Requirements:Applicants must have at least one or more years of progressively related specialized experience in the\nsame or similar work at a level of difficulty and responsibility that has\nequipped you with the necessary knowledge, skills or abilities to perform\nsuccessfully the duties of an IT Specialist GS-13. Creditable specialized experience includes: 1) evaluating system\nperformance data to identify and address inefficiencies; 2) providing oversight\nin the integration of information technology systems to ensure compliance with\nsoftware and business requirements; 3) providing guidance in the development\nand implementation of information technology policies and procedures; and 4)\ndeveloping alternatives for addressing complex issues with information\ntechnology system performance.These\npositionsare covered under the Defense Acquisition Workforce Improvement Act\n(DAWIA) and requires additional education, training and experience. This\nposition has been identified as a Career Field Information Technology at Level I, II or III, depending on location and grade of the position. If you possess DAWIA Certification, please\nindicate your Certification Level and Career Field information in your\nresume. Applicants not certified may still apply and be selected, but must achieve\ncertification within 24 months of appointment.\nCertification requirements may be viewed at http://icatalog.dau.mil/onlinecatalog/CareerLvl.aspx.Additional qualification information can be found from the following Department of Defense (DoD) web site:https://www.opm.gov/policy-data-oversight/classification-qualifications/general-schedule-qualification-standards/2200/information-technology-it-management-series-2210-alternative-a/ You will receive credit for all qualifying experience, including volunteer and part time experience. You must clearly identify the duties and responsibilities in each position held and the total number of hours per week. Experience refers to paid and unpaid experience, including volunteer work done through National Service programs (e.g., professional, philanthropic, religious, spiritual, community, student, social). Volunteer work helps build critical competencies, knowledge, and skills and can provide valuable training and experience that translates directly to paid employment. As part of the application process, you must complete and submit an occupational questionnaire. To preview this questionnaire and determine if your experience matches the required skills for this position, click the following link: View Assessment Questions Please follow all instructions carefully. Errors or omissions may affect your rating and/or appointment eligibility.",
+                    "PositionRemuneration": [{
+                        "MinimumRange": "49765.0",
+                        "MaximumRange": "125706.0",
+                        "RateIntervalCode": "Per Year"
+                    }],
+                    "PositionStartDate": "2017-03-25",
+                    "PositionEndDate": "2017-12-08",
+                    "PublicationStartDate": "2017-03-25",
+                    "ApplicationCloseDate": "2017-12-08",
+                    "PositionFormattedDescription": [{
+                        "Label": "Dynamic Teaser",
+                        "LabelDescription": "Hit highlighting for keyword searches."
+                    }],
+                    "UserArea": {
+                        "Details": {
+                            "JobSummary": "This job announcement is for IT Specialist positions for Naval Air Systems Command and Office Naval Research.This public notice announcement is for anticipated vacancies to be\nfilled under the Expedited Hiring Authority (EHA) for acquisition positions\nlocated at Department of Navy installations identified in this public notice. Positions\nmay be filled as permanent with a full-time work schedule. Pay will vary by\ngeographic location. There may or may not be actual/projected vacancies at the\ntime you submit your application. Please read this Public Notice in its\nentirety prior to submitting your application for consideration. These positions are\nbeing filled under Expedited Hiring Authority (EHA) for acquisition positions\nlocated at Department of Navy installations identified in this public notice.\nPositions may be filled as permanent with a full-time work schedule. Pay will\nvary by geographic location.Based on the various locations of this announcement, vacancies can be filled as GS-09/11/12/13 or DS-03/04/05 pay band (equivalent to GS-09/10, GS-11/12 or GS-12/13).To view additional salary information based on the various locations and pay grade/pay bands, please visit the following: http://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2017/general-schedule/NOTE: Notices of Results (NORs) will not be sent to applicants under this authority. Please do not contact this office for status. If you are selected for this position, you will be contacted.",
+                            "WhoMayApply": {
+                                "Name": "United States Citizens",
+                                "Code": "15514"
+                            },
+                            "LowGrade": "09",
+                            "HighGrade": "13"
+                        },
+                        "IsRadialSearch": false
+                    }
+                },
+                "RelevanceRank": 0
+            },
+            {
+                "MatchedObjectId": "466533600",
+                "MatchedObjectDescriptor": {
+                    "PositionID": "HHS-CDC-DH-17-1933511",
+                    "PositionTitle": "IT Specialist (INFOSEC)",
+                    "PositionURI": "https://www.usajobs.gov:443/GetJob/ViewDetails/466533600",
+                    "ApplyURI": [
+                        "https://www.usajobs.gov:443/GetJob/ViewDetails/466533600?PostingChannelID=RESTAPI"
+                    ],
+                    "PositionLocationDisplay": "Atlanta, Georgia",
+                    "PositionLocation": [{
+                        "LocationName": "Atlanta, Georgia",
+                        "CountryCode": "United States",
+                        "CountrySubDivisionCode": "Georgia",
+                        "CityName": "Atlanta, Georgia",
+                        "Longitude": -84.39111,
+                        "Latitude": 33.7483139
+                    }],
+                    "OrganizationName": "Centers for Disease Control and Prevention",
+                    "DepartmentName": "Department of Health And Human Services",
+                    "JobCategory": [{
+                        "Name": "Information Technology Management",
+                        "Code": "2210"
+                    }],
+                    "JobGrade": [{
+                        "Code": "GS"
+                    }],
+                    "PositionSchedule": [{
+                        "Name": "Full Time",
+                        "Code": "1"
+                    }],
+                    "PositionOfferingType": [{
+                        "Name": "Permanent",
+                        "Code": "15317"
+                    }],
+                    "QualificationSummary": "Applicants\nmust have at least one year of specialized experience at or equivalent to the\nnext lower grade level in the Federal service as defined in the next\nparagraphs. Specialized experience is experience which is directly\nrelated to the position which has equipped the applicant with the particular\nknowledge, skills and abilities (KSAs) to successfully perform the duties of\nthe position. GS-12: Applicants must have one year of specialized experience at\na level of difficulty and responsibility equivalent to the GS-11 grade level in\nthe Federal service which includes experience maintaining the confidentiality,\nintegrity and availability of automated data processing operating through performance\nof IT security and information assurance activities. GS-13: Applicants must have one year of specialized experience at\na level of difficulty and responsibility equivalent to the GS-12 grade level in\nthe Federal service which includes maintaining the confidentiality, integrity\nand availability of automated data processing operations through performance of\nIT security and information assurance activities implementing IT security\npolicies and procedures in the development and operations of network and telecommunication\nsystems, mainframe personal computing, video-conferencing, infrastructure\nsoftware and server support. Additional Qualifying experience for the GS-12/13 grade level requires\nIT-related experience that demonstrated each of the following four\ncompetencies: Attention to detail; customer service; oral communications;\nand problem solving. 1.\nAttention to Detail - Is thorough when performing work and\nconscientious about attending to detail. 2.\nCustomer Service - Works with clients and customers (that is, any\nindividuals who use or receive the services or products that your work unit\nproduces, including the general public, individuals who work in the agency,\nother agencies, or organizations outside the Government) to assess their needs,\nprovide information or assistance, resolve their problems, or satisfy their\nexpectations; knows about available products and services; is committed to\nproviding quality products and services. 3.\nOral Communication - Expresses information (for example, ideas or facts)\nto individuals or groups effectively, taking into account the audience and\nnature of the information (for example, technical, sensitive, controversial);\nmakes clear and convincing oral presentations; listens to others, attends to\nnonverbal cues, and responds appropriately. 4.\nProblem Solving - Identifies problems; determines accuracy and relevance\nof information; uses sound judgment to generate and evaluate alternatives, and\nto make recommendations.",
+                    "PositionRemuneration": [{
+                        "MinimumRange": "75705.0",
+                        "MaximumRange": "117028.0",
+                        "RateIntervalCode": "Per Year"
+                    }],
+                    "PositionStartDate": "2017-07-31",
+                    "PositionEndDate": "2018-01-30",
+                    "PublicationStartDate": "2017-07-31",
+                    "ApplicationCloseDate": "2018-01-30",
+                    "PositionFormattedDescription": [{
+                        "Label": "Dynamic Teaser",
+                        "LabelDescription": "Hit highlighting for keyword searches."
+                    }],
+                    "UserArea": {
+                        "Details": {
+                            "JobSummary": "The Centers for Disease Control and Prevention (CDC) is the agency Americans trust with their lives. As a global leader in public health, CDC is the nation's premier health promotion, prevention, and preparedness agency. Whether we are protecting the American people from public health threats, researching emerging diseases, or mobilizing public health programs with our domestic and international partners, we rely on our employees to make a real difference in the health and well-being of people here and around the world. This position is being filled through the Direct Hire Authority for this occupation and is open to all US Citizens. All applicants who meet the basic qualification requirements will be forwarded to the Selecting Official for consideration. Traditional rating and ranking of applications does not apply. Applications received as a result of job fairs, recruitment events, and emergency hiring mechanisms in support of this hiring initiative will also be accepted during the duration of the direct-hire authority.\nThis open continuous announcement is being used to create an\ninventory of qualified applicants for IT Specialist (INFOSEC) positions and will\nbe used to fill immediate and future vacancies.This position is located in the Department of\nHealth and Human Services (DHHS), Centers for Disease Control and Prevention\n(CDC), Office of the Director (OD), Office of the Chief Operating Officer (OCOO),\nOffice of the Chief Information Officer (OCIO), Office of the Chief Information\nSecurity Officer (OCISO), Atlanta, Georgia.\nAdditional selections may be made within the same geographical location.CDC is an Equal Opportunity Employer.",
+                            "WhoMayApply": {
+                                "Name": "United States Citizens",
+                                "Code": "15514"
+                            },
+                            "LowGrade": "12",
+                            "HighGrade": "13"
+                        },
+                        "IsRadialSearch": false
+                    }
+                },
+                "RelevanceRank": 0
+            },
+            {
+                "MatchedObjectId": "468116600",
+                "MatchedObjectDescriptor": {
+                    "PositionID": "NE72210-13-1945840XXXXXXXXE",
+                    "PositionTitle": "IT Specialist ",
+                    "PositionURI": "https://www.usajobs.gov:443/GetJob/ViewDetails/468116600",
+                    "ApplyURI": [
+                        "https://www.usajobs.gov:443/GetJob/ViewDetails/468116600?PostingChannelID=RESTAPI"
+                    ],
+                    "PositionLocationDisplay": "Multiple Locations",
+                    "PositionLocation": [{
+                            "LocationName": "China Lake, California",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "California",
+                            "CityName": "China Lake, California",
+                            "Longitude": -117.67,
+                            "Latitude": 35.6506
+                        },
+                        {
+                            "LocationName": "Point Mugu, California",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "California",
+                            "CityName": "Point Mugu, California",
+                            "Longitude": -119.06,
+                            "Latitude": 34.08556
+                        },
+                        {
+                            "LocationName": "San Diego, California",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "California",
+                            "CityName": "San Diego, California",
+                            "Longitude": -117.162,
+                            "Latitude": 32.7157
+                        },
+                        {
+                            "LocationName": "Jacksonville, Florida",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Florida",
+                            "CityName": "Jacksonville, Florida",
+                            "Longitude": -81.6558,
+                            "Latitude": 30.33138
+                        },
+                        {
+                            "LocationName": "Orlando Naval Warfare Center, Florida",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Florida",
+                            "CityName": "Orlando Naval Warfare Center, Florida",
+                            "Longitude": -81.3112,
+                            "Latitude": 28.4391
+                        },
+                        {
+                            "LocationName": "Patuxent River, Maryland",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Maryland",
+                            "CityName": "Patuxent River, Maryland",
+                            "Longitude": -76.7301,
+                            "Latitude": 38.756
+                        },
+                        {
+                            "LocationName": "Saint Inigoes, Maryland",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Maryland",
+                            "CityName": "Saint Inigoes, Maryland",
+                            "Longitude": -76.39059,
+                            "Latitude": 38.147934
+                        },
+                        {
+                            "LocationName": "Cherry Point, North Carolina",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "North Carolina",
+                            "CityName": "Cherry Point, North Carolina",
+                            "Longitude": -76.82216,
+                            "Latitude": 34.94016
+                        },
+                        {
+                            "LocationName": "Lakehurst, New Jersey",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "New Jersey",
+                            "CityName": "Lakehurst, New Jersey",
+                            "Longitude": -74.3099,
+                            "Latitude": 40.0124
+                        },
+                        {
+                            "LocationName": "Arlington, Virginia",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Virginia",
+                            "CityName": "Arlington, Virginia",
+                            "Longitude": -77.0862961,
+                            "Latitude": 38.89051
+                        }
+                    ],
+                    "OrganizationName": "Naval Air Systems Command",
+                    "DepartmentName": "Department of the Navy",
+                    "JobCategory": [{
+                        "Name": "Information Technology Management",
+                        "Code": "2210"
+                    }],
+                    "JobGrade": [{
+                        "Code": "GS"
+                    }],
+                    "PositionSchedule": [{
+                        "Name": "Full Time",
+                        "Code": "1"
+                    }],
+                    "PositionOfferingType": [{
+                        "Name": "Permanent",
+                        "Code": "15317"
+                    }],
+                    "QualificationSummary": "In order to qualify for this position, your resume must provide sufficient experience and/or education, knowledge, skills, and abilities, to perform the duties of the specific position for which you are being considered. Your resume is the key means we have for evaluating your skills, knowledge, and abilities, as they relate to this position. Therefore, we encourage you to be clear and specific when describing your experience.MINIMUM QUALIFICATIONS: Your resume must demonstrate at least one year of the following (NOTE: If you are substituting experience with education, you MUST submit a copy of your transcripts): GS-05:A. Successfully obtained a degree in\ncomputer science, engineering, information science, information systems\nmanagement, mathematics, operations research, statistics, or technology\nmanagement or\na degree that providedyou with a minimum of 24 semester hours in one or more of\nthe fields identified above and required the development or adaptation of\napplications, systems or networks.ORB. At least one year of specialized experience equivalent to the next lower level in the federal service or equivalent experience in the private or public sector that has equippedyou with the particular knowledge, skills and abilities to successfully perform the duties of the position. Experience must be IT related. Specialized experience includes: 1) Applying basic IT principles and practices; 2) Communicating factual and procedural information clearly; and 3) Gathering and analyzing basic facts and drawing conclusions. I have experience in the four competencies of Attention to Detail - I am able to review data from multiple sources and determine relevant information to a given situation. I draft, edit and disseminate written reports and status updates that are factual, timely and relatively error free.Customer Service - I develop and maintain relationships with customers with diverse needs. I provide technical information about products and services. I assess the needs of customers and identify or tailor products and/or services to meet their needs. I resolve non-routine problems, questions, or complaints and direct the most complex problems, questions, or complaints to the appropriate person.Oral Communication - I communicate, explain, or defend ideas or information clearly. I listen to others and recognize potential miscommunications.Problem Solving - I use logic to identify alternatives to solve technical problems. I identify and solve problems by gathering and applying information from a variety of materials or sources that provide several alternatives.ORGS-07:A. At least one year of specialized experience equivalent to the next lower level in the federal service or equivalent experience in the private or public sector that has equipped you with the particular knowledge, skills and abilities to successfully perform the duties of the position. Experience must be IT related. Specialized experience includes: 1) Applying IT principles, methods, and tools; 2) Evaluating established methods and procedures in order to assist in preparing recommendations for changes in methods and practices where appropriate; and 3) Identifying and/or resolving basic IT issues and problems. I have experience in the four competencies of Attention to Detail - I am able to review data from multiple sources and determine relevant information to a given situation. I draft, edit and disseminate written reports and status updates that are factual, timely and relatively error free.Customer Service - I develop and maintain relationships with customers with diverse needs. I provide technical information about products and services. I assess the needs of customers and identify or tailor products and/or services to meet their needs. I resolve non-routine problems, questions, or complaints and direct the most complex problems, questions, or complaints to the appropriate person.Oral Communication - I communicate, explain, or defend ideas or information clearly. I listen to others and recognize potential miscommunications.Problem Solving - I use logic to identify alternatives to solve technical problems. I identify and solve problems by gathering and applying information from a variety of materials or sources that provide several alternatives.ORB. A bachelor degree in computer science, engineering, information science, information systems management, mathematics, operations research, statistics, or technology management or a degree that provided a minimum of 24 semester hours in one or more of the fields identified above and required the development or adaptation of applications, systems or networks AND meet one of the requirements of superior academic achievement. [Completion of all requirements for a bachelor's degree and meet the Superior Academic Achievement Provisions: 1. Maintained a grade-point average of \"B\" (a GPA of 3.0 or higher) for all completed undergraduate courses, or those completed in the last two years of undergraduate study. 2. Maintained a grade-point average \"B+\" (a GPA of 3.5 or higher) for all courses in your major field of study, or those courses in your major completed in the last two years of undergraduate study. 3. Rank in the upper one-third of your class in the college, university, or major subdivision. 4. Became a member of a national honor (other than freshman honor societies) recognized by the Association of College Honor Societies. Please submit a college transcript(s) showing your grade point average for all four years of undergraduate study, including all transferred courses. NOTE: GPA's are to be rounded to one decimal place. For example, 2.95 will round to 3.0 and 2.94 will round to 2.9. If more than 10 percent of your undergraduate course work (credit hours) were taken on a pass/fail or similar basis, your claim must be based on class standing or membership in an honor society.]ORC. One full year of graduate level study, or possess a master's or higher degree in a field that provided the knowledge, skills, and abilities to do the work of the position. One academic year of graduate education is considered to be the number of credit hours that your graduate school has determined to represent one academic year of full-time study. Such study may have been performed on a full-time or part-time basis. If you cannot obtain your graduate school's definition of one year of graduate study, 18 semester hours (or 27 quarter hours) should be considered as satisfying the requirement.OR D. A combination of experience and education. Additional qualification information can be found from the following Office of Personnel Management web site: https://www.opm.gov/policy-data-oversight/classification-qualifications/general-schedule-qualification-standards/2200/information-technology-it-management-series-2210-alternative-a/ You will receive credit for all qualifying experience, including volunteer and part time experience. You must clearly identify the duties and responsibilities in each position held and the total number of hours per week. Experience refers to paid and unpaid experience, including volunteer work done through National Service programs (e.g., professional, philanthropic, religious, spiritual, community, student, social). Volunteer work helps build critical competencies, knowledge, and skills and can provide valuable training and experience that translates directly to paid employment. As part of the application process, you must complete and submit an occupational questionnaire. To preview this questionnaire and determine if your experience matches the required skills for this position, click the following link: View Assessment Questions Please follow all instructions carefully. Errors or omissions may affect your rating and/or appointment eligibility.",
+                    "PositionRemuneration": [{
+                        "MinimumRange": "32318.0",
+                        "MaximumRange": "65116.0",
+                        "RateIntervalCode": "Per Year"
+                    }],
+                    "PositionStartDate": "2017-04-20",
+                    "PositionEndDate": "2017-12-08",
+                    "PublicationStartDate": "2017-04-20",
+                    "ApplicationCloseDate": "2017-12-08",
+                    "PositionFormattedDescription": [{
+                        "Label": "Dynamic Teaser",
+                        "LabelDescription": "Hit highlighting for keyword searches."
+                    }],
+                    "UserArea": {
+                        "Details": {
+                            "JobSummary": "This job announcement is for the IT Specialist positions for Naval Air Systems Command.This is a public notice announcement; under this recruitment procedure,\neach location/installation, identified in this public notice will make\nselections for vacancies as they occur. There may or may not be\nactual/projected vacancies at the time you submit your application. Please read\nthis Public Notice in its entirety prior to submitting your application for\nconsideration.These positions are being filled under Expedited Hiring Authority (EHA)\nfor acquisition positions located at Department of Navy installations\nidentified in this public notice. Positions may be filled as permanent with a\nfull-time work schedule. Pay will vary by geographic location.NOTE: Notices of Results (NORs) will not be sent\nto applicants who apply to this announcement. Please do not contact us for your status. Based on\nthe various locations of this announcement, vacancies can be filled as\nGS-05/07 or DS-02 pay band (equivalent to GS-05/08). The Full Performance Level for these vacancies may be GS-11/12/13/14 or DS-04 pay band (equivalent to GS-11/12) or DS-05 pay band (equivalent to GS-12/13).To view\nadditional salary information based on the various locations and pay grade/pay\nbands, please visit the following: https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/general-schedule/",
+                            "WhoMayApply": {
+                                "Name": "United States Citizens",
+                                "Code": "15514"
+                            },
+                            "LowGrade": "05",
+                            "HighGrade": "07"
+                        },
+                        "IsRadialSearch": false
+                    }
+                },
+                "RelevanceRank": 0
+            },
+            {
+                "MatchedObjectId": "472342500",
+                "MatchedObjectDescriptor": {
+                    "PositionID": "17-50",
+                    "PositionTitle": "IT Specialist (Systems Administration)",
+                    "PositionURI": "https://www.usajobs.gov:443/GetJob/ViewDetails/472342500",
+                    "ApplyURI": [
+                        "https://www.usajobs.gov:443/GetJob/ViewDetails/472342500?PostingChannelID=RESTAPI"
+                    ],
+                    "PositionLocationDisplay": "Cambridge, Massachusetts",
+                    "PositionLocation": [{
+                        "LocationName": "Cambridge, Massachusetts",
+                        "CountryCode": "United States",
+                        "CountrySubDivisionCode": "Massachusetts",
+                        "CityName": "Cambridge, Massachusetts",
+                        "Longitude": -71.10602,
+                        "Latitude": 42.36679
+                    }],
+                    "OrganizationName": "Smithsonian Institution ",
+                    "DepartmentName": "Other Agencies and Independent Organizations",
+                    "JobCategory": [{
+                        "Name": "Information Technology Management",
+                        "Code": "2210"
+                    }],
+                    "JobGrade": [{
+                        "Code": "IS"
+                    }],
+                    "PositionSchedule": [{
+                        "Name": "Full Time",
+                        "Code": "1"
+                    }],
+                    "PositionOfferingType": [{
+                        "Name": "Trust Fund Indefinite. This is not a federal position",
+                        "Code": "15317"
+                    }],
+                    "QualificationSummary": "For all positions individuals must have IT-related experience demonstrating each of the four competencies listed below.Attention to Detail - Is thorough when performing work and conscientious about attending to detail.Customer Service - Works with clients and customers (that is, any individuals who use or receive the services or products that your work unit produces, including the general public, individuals who work in the agency, other agencies, or organizations outside the Government) to assess their needs, provide information or assistance, resolve their problems, or satisfy their expectations; knows about available products and services; is committed to providing quality products and services.Oral Communication - Expresses information (for example, ideas or facts) to individuals or groups effectively, taking into account the audience and nature of the information (for example, technical, sensitive, controversial); makes clear and convincing oral presentations; listens to others, attends to nonverbal cues, and responds appropriately.Problem Solving - Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations.In addition to the basic requirements listed above applicants must possess a minimum of one year of specialized experience equivalent to at least the grade 12 in the normal line of progression for this occupation which should demonstrate skill in leading the organization of a large complex system of computers into a cohesive network; skill in leading network design and working with complex external interfaces; skill in developing procedures; skill in interfacing with external groups as a lead; and the accomplishment of independently completing computer project assignments requiring a wide range of knowledge of computer requirements and techniques where the applicant analyzed a number of alternative approaches in the process of advising management concerning major aspects of system design that are most appropriate for a given project.",
+                    "PositionRemuneration": [{
+                        "MinimumRange": "94520.0",
+                        "MaximumRange": "122875.0",
+                        "RateIntervalCode": "Per Year"
+                    }],
+                    "PositionStartDate": "2017-06-16",
+                    "PositionEndDate": "2017-11-30",
+                    "PublicationStartDate": "2017-06-16",
+                    "ApplicationCloseDate": "2017-11-30",
+                    "PositionFormattedDescription": [{
+                        "Label": "Dynamic Teaser",
+                        "LabelDescription": "Hit highlighting for keyword searches."
+                    }],
+                    "UserArea": {
+                        "Details": {
+                            "JobSummary": "* The list of arms embargoed destinations is drawn from 22 CFR &#167;126.1 and State Department Federal Register notices related to arms embargoes(compiled at http://www.pmddtc.state.gov/embargoed_countries/index.html).The Smithsonian Astrophysical Observatory is part of what is arguably the largest and most diverse astrophysical institution in the world, where the staff carries out a broad program of research in astronomy, astrophysics and earth and space sciences. If you would like to join this exciting organization, apply today!",
+                            "WhoMayApply": {
+                                "Name": "All qualified candidates. Employment is dependent upon the ability to obtain export license approval. Note: Countries subject to U.S. arms embargoes are identified by the State Department through notices published in the Federal Register. * First consideration may be made 14 days after the opening date.",
+                                "Code": "15669"
+                            },
+                            "LowGrade": "13",
+                            "HighGrade": "13"
+                        },
+                        "IsRadialSearch": false
+                    }
+                },
+                "RelevanceRank": 0
+            },
+            {
+                "MatchedObjectId": "472564900",
+                "MatchedObjectDescriptor": {
+                    "PositionID": "NCFV170335130305S",
+                    "PositionTitle": "IT Specialist (CUSTSPT/NETWORK)",
+                    "PositionURI": "https://www.usajobs.gov:443/GetJob/ViewDetails/472564900",
+                    "ApplyURI": [
+                        "https://www.usajobs.gov:443/GetJob/ViewDetails/472564900?PostingChannelID=RESTAPI"
+                    ],
+                    "PositionLocationDisplay": "Winchester, Virginia",
+                    "PositionLocation": [{
+                        "LocationName": "Winchester, Virginia",
+                        "CountryCode": "United States",
+                        "CountrySubDivisionCode": "Virginia",
+                        "CityName": "Winchester, Virginia",
+                        "Longitude": -78.16405,
+                        "Latitude": 39.1840057
+                    }],
+                    "OrganizationName": "U.S. Army Corps of Engineers",
+                    "DepartmentName": "Department of the Army",
+                    "JobCategory": [{
+                        "Name": "Information Technology Management",
+                        "Code": "2210"
+                    }],
+                    "JobGrade": [{
+                        "Code": "GS"
+                    }],
+                    "PositionSchedule": [{
+                        "Name": "Full-Time",
+                        "Code": "1"
+                    }],
+                    "PositionOfferingType": [{
+                        "Name": "13 months",
+                        "Code": "15319"
+                    }],
+                    "QualificationSummary": "In order to qualify, you must meet the education and/or experience requirements described below. Experience refers to paid and unpaid experience, including volunteer work done through National Service programs (e.g., Peace Corps, AmeriCorps) and other organizations (e.g., professional; philanthropic; religious; spiritual; community; student; social). You will receive credit for all qualifying experience, including volunteer experience. Your resume must clearly describe your relevant experience; if qualifying based on education, your transcripts will be required as part of your application. Additional information about transcripts is in this document. To qualify at the GS-09 level you must meet one of the following:\nSpecialized Experience: One year of specialized experience which includes assisting with maintenance on Local and Wide Area Networks such as monitoring, diagnosing or troubleshooting to resolution all router, switch and call manager problems; assist IT customers to resolve common issues; activities; provide desktop support with customer service, user account management, installing and troubleshooting hardware/software; and assisting customers in finding solutions to routine IT issues. This definition of specialized experience is typical of work performed at the second lower grade/level position in the federal service (GS-07). OR Education: Master&#39;s or equivalent graduate degree or 2 full years of progressively higher level graduate education leading to such a degree in a field which demonstrates the knowledge, skills, and abilities necessary to do the work of the position, such as: Computer Sciences. OR Combination of Education and Experience: A combination of education and experience may be used to qualify for this position as long as the computed percentage of the requirements is at least 100%. To compute the percentage of the requirements, divide your total months of experience by 12. Then divide the total number of completed graduate semester hours (or equivalent) beyond the first year (total graduate semester hours minus 18) by 18. Add the two percentages. To qualify at the GS-11 level you must meet one of the following:\nSpecialized Experience: One year of specialized experience which includes includes assisting with maintenance with Local and Wide Area Networks to include monitoring, assisting with diagnosing and troubleshooting to resolution all router, switch and call manager problems; assist IT customers to resolve common issues; assist in planning or designing internet, intranet or extranet activities; provide desktop support with customer service, user account management, installing and troubleshooting hardware/software; and assisting analysis of reports of system issues from customers and assist them in finding a solution. This definition of specialized experience is typical of work performed at the second lower grade/level position in the federal service (GS-09). OR Education: Ph.D or equivalent doctoral degree or 3 full years of progressively higher level graduate education leading to such a degree in a field which demonstrates the knowledge, skills, and abilities necessary to do the work of the position, such as: Computer Sciences. OR Combination of Education and Experience: A combination of education and experience may be used to qualify for this position as long as the computed percentage of the requirements is at least 100%. To compute the percentage of the requirements, divide your total months of experience by 12. Then divide the total number of completed graduate semester hours (or equivalent) beyond the second year (total graduate semester hours minus 36) by 18. Add the two percentages. To qualify at the GS-12 level you must meet the following: Specialized Experience: One year of specialized experience which includes maintain Local and Wide Area Networks to include monitoring, diagnosing and troubleshooting to resolution all router, switch and call manager problems; assist IT customers to resolve common issues; assist in planning or designing internet, intranet or extranet activities; provide desktop support with customer service, user account management, installing and troubleshooting hardware/software; and analyze reports of system issues from customers and assist them in finding a solution. This definition of specialized experience is typical of work performed at the next lower grade/level position in the federal service (GS-11). If qualifying using specialized experience at any grade level your experience must contains the following characteristics. 1. Attention to Detail - Is thorough when performing work and conscientious about attending to detail.\n2. Customer Service - Works with clients and customers (that is, any individuals who use or receive the services or products that your work unit produces, including the general public, individuals who work in the agency, other agencies, or organizations outside the Government) to assess their needs, provide information or assistance, resolve their problems, or satisfy their expectations; knows about available products and services; is committed to providing quality products and services.\n3. Oral Communication - Expresses information (for example, ideas or facts) to individuals or groups effectively, taking into account the audience and nature of the information (for example, technical, sensitive, controversial); makes clear and convincing oral presentations; listens to others, attends to nonverbal cues, and responds appropriately.\n4. Problem Solving - Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations. You will be evaluated on the basis of your level of competency in the following areas:\nCustomer ServiceNetwork ManagementOperating SystemsOral CommunicationOrganizational Awareness",
+                    "PositionRemuneration": [{
+                        "MinimumRange": "54972.0000",
+                        "MaximumRange": "103639.0000",
+                        "RateIntervalCode": "Per Year"
+                    }],
+                    "PositionStartDate": "2017-06-21",
+                    "PositionEndDate": "2018-06-20",
+                    "PublicationStartDate": "2017-06-21",
+                    "ApplicationCloseDate": "2018-06-20",
+                    "PositionFormattedDescription": [{
+                        "Label": "Dynamic Teaser",
+                        "LabelDescription": "Hit highlighting for keyword searches."
+                    }],
+                    "UserArea": {
+                        "Details": {
+                            "JobSummary": "Looking for a great place to work? The U.S. Army Corps of Engineers is one of the best! In 2016, USACE ranked number two of government large-agency subcomponents! As rated by their employees, USACE supervisors strongly support employee development and opportunities to demonstrate leadership skills, while also maintaining an optimal work/life balance. The Corps offers a team-inspiring and collaborative work environment; providing challenging and rewarding careers across a variety of disciplines. Civilian employees serve a vital role in supporting the Army mission. They provide the skills that are not readily available in the military, but crucial to support military operations. The Army integrates the talents and skills of its military and civilian members to form a Total Army. About the Position:\nThis position is a TERM position not to exceed 13 months. It is temporary and may be extended up to a maximum of six years.\nThis position MAY be subsequently be non-competitively converted to a career-conditional or career appointment. Winchester, a city of 30,000, is located in the beautiful Shenandoah Valley 70 miles northwest of Washington, DC. Visit the US Army Corps of Engineers, Middle East District website at the link here. Applicants whose application packages are received by the first cut-off date of 5JUL2017 will be considered first. Applicants whose application packages are received after the cut-off date and prior to the closing date will only be considered if the supply of candidates is exhausted and/or there are additional vacancies to fill. Management may select at any of the grade levels announced. This recruitment provides promotion opportunity to the target grade of the position without further competition when selectee is eligible and recommended by management. Who May Apply: US Citizens",
+                            "WhoMayApply": {
+                                "Name": "US Citizens",
+                                "Code": "15514"
+                            },
+                            "LowGrade": "9",
+                            "HighGrade": "12"
+                        },
+                        "IsRadialSearch": false
+                    }
+                },
+                "RelevanceRank": 0
+            },
+            {
+                "MatchedObjectId": "472951200",
+                "MatchedObjectDescriptor": {
+                    "PositionID": "AZ-10017440-AF-17-021",
+                    "PositionTitle": "IT Specialist (CUSTSPT)",
+                    "PositionURI": "https://www.usajobs.gov:443/GetJob/ViewDetails/472951200",
+                    "ApplyURI": [
+                        "https://www.usajobs.gov:443/GetJob/ViewDetails/472951200?PostingChannelID=RESTAPI"
+                    ],
+                    "PositionLocationDisplay": "Davis Monthan AFB, Arizona",
+                    "PositionLocation": [{
+                        "LocationName": "Davis Monthan AFB, Arizona",
+                        "CountryCode": "United States",
+                        "CountrySubDivisionCode": "Arizona",
+                        "CityName": "Davis Monthan AFB, Arizona",
+                        "Longitude": -110.8475,
+                        "Latitude": 32.1566
+                    }],
+                    "OrganizationName": "Air National Guard Units (Title 32)",
+                    "DepartmentName": "Department of the Air Force",
+                    "JobCategory": [{
+                        "Name": "Information Technology Management",
+                        "Code": "2210"
+                    }],
+                    "JobGrade": [{
+                        "Code": "GS"
+                    }],
+                    "PositionSchedule": [{
+                        "Name": "Full-Time",
+                        "Code": "1"
+                    }],
+                    "PositionOfferingType": [{
+                        "Name": "Permanent",
+                        "Code": "15317"
+                    }],
+                    "QualificationSummary": "SPECIALIZED EXPERIENCE: Must have at least 36 months experience, education, or training that approaches techniques and requirements appropriate to an assigned computer applications area or computer specialty area in an organization. Experience planning the sequence of actions necessary to accomplish the assignment where this entailed coordination with others outside the organizational unit and development of project controls. Experience that required adaptations of guidelines or precedents to meet the needs of the assignment. Experience preparing documentation on cost/benefit studies where is involved summarizing the material and organizing it in a logical fashion.",
+                    "PositionRemuneration": [{
+                        "MinimumRange": "61748.0000",
+                        "MaximumRange": "80270.0000",
+                        "RateIntervalCode": "Per Year"
+                    }],
+                    "PositionStartDate": "2017-06-23",
+                    "PositionEndDate": "2017-12-15",
+                    "PublicationStartDate": "2017-06-23",
+                    "ApplicationCloseDate": "2017-12-15",
+                    "PositionFormattedDescription": [{
+                        "Label": "Dynamic Teaser",
+                        "LabelDescription": "Hit highlighting for keyword searches."
+                    }],
+                    "UserArea": {
+                        "Details": {
+                            "JobSummary": "This National Guard position is for a IT Specialist (CUSTSPT), Position Description Number D1650P01 and is part of the AZ 162nd Wing, Air National Guard. Note: Open until filled(10 vacancies)-Applications will be reviewed every 30 days for consideration for hire until 15 Dec 2017. Note: No known military promotion is associated with this Technician Vacancy. All selected applicants will be placed in a position commensurate with their current rank and boarded for promotion at the discretion of military supervision.\nNote: Individual selected will receive a Permanent Appointment after successful completion of a one year trial period.\nNote: This position is subject to rotating or night shift work in support of 24/7 operation.\nNote: Individual selected must be willing to attend FTD courses if no prior Ground Control Station (GCS) and/or SATCOM Earth Terminal Subsystem (SETSS) Maintenance experience.\nNote: Individual selected will be UTC tasked and subject to involuntary deployment.\nNote: Limited Permanent Change of Station (PCS) funds may be authorized if funds are available.\nNote: All Selected applicants will be placed on an Order of Merit List in the order of their referral and selection ranking.\nNote: Unless otherwise amended this position will close on 15 December 2017. The National Guard is the oldest component of the Armed Forces of the United States. Since the earliest American colonial days, citizens have joined together for collective defense. We have a proud tradition of coming to the aid of our friends and neighbors in times of serious emergencies. Join our National Guard team and serve your nation, your states and your community! NATIONAL GUARD MEMBERSHIP IS REQUIRED: This is an excepted service position that requires membership in a compatible military assignment in the National Guard. Selectee will be required to wear the military uniform. Acceptance of an excepted service position constitutes concurrence with these requirements as a condition of employment. Applicants who are not currently a member of the National Guard must be eligible for immediate membership and employment in the National Guard in the military grade listed in this announcement.",
+                            "WhoMayApply": {
+                                "Name": "Open to current members and those eligible for membership for the Arizona Air National Guard",
+                                "Code": "15514"
+                            },
+                            "LowGrade": "11",
+                            "HighGrade": "11"
+                        },
+                        "IsRadialSearch": false
+                    }
+                },
+                "RelevanceRank": 0
+            },
+            {
+                "MatchedObjectId": "472975200",
+                "MatchedObjectDescriptor": {
+                    "PositionID": "CA-10008346-AR-17-412",
+                    "PositionTitle": "IT Specialist (CUSTSPT)",
+                    "PositionURI": "https://www.usajobs.gov:443/GetJob/ViewDetails/472975200",
+                    "ApplyURI": [
+                        "https://www.usajobs.gov:443/GetJob/ViewDetails/472975200?PostingChannelID=RESTAPI"
+                    ],
+                    "PositionLocationDisplay": "Los Alamitos, California",
+                    "PositionLocation": [{
+                        "LocationName": "Los Alamitos, California",
+                        "CountryCode": "United States",
+                        "CountrySubDivisionCode": "California",
+                        "CityName": "Los Alamitos, California",
+                        "Longitude": -118.076622,
+                        "Latitude": 33.8031654
+                    }],
+                    "OrganizationName": "Army National Guard Units (Title 32)",
+                    "DepartmentName": "Department of the Army",
+                    "JobCategory": [{
+                        "Name": "Information Technology Management",
+                        "Code": "2210"
+                    }],
+                    "JobGrade": [{
+                        "Code": "GS"
+                    }],
+                    "PositionSchedule": [{
+                        "Name": "Full-Time",
+                        "Code": "1"
+                    }],
+                    "PositionOfferingType": [{
+                        "Name": "Indefinite",
+                        "Code": "15318"
+                    }],
+                    "QualificationSummary": "General Experience: Experience, education or training that has provided a basic knowledge of data processing functions and general management principles that enabled the applicant to understand the stages required to automate a work process. Experience may have been gained in work such as computer operator or assistant, computer sales representative, program analyst, or other positions that required the use or adaptation of computer programs and systems. IT Specialist (CUSTSPT), GS-2210-09 (Trainee): Must have at least 24 months experience, education, or training in analysis of the interrelationship of pertinent components of the system. Experience planning the sequence of actions necessary to accomplish the assignment. Experience scheduling the sequence of programs to be processed by computers where alternatives had to be weighed with a view to production efficiency. IT Specialist (CUSTSPT), GS-2210-11: Must have at least 36 months experience, education, or training that approaches techniques and requirements appropriate to an assigned computer applications area or computer specialty area in an organization. Experience planning the sequence of actions necessary to accomplish the assignment where this entailed coordination with others outside the organizational unit and development of project controls. Experience that required adaptations of guidelines or precedents to meet the needs of the assignment. Experience preparing documentation on cost/benefit studies where is involved summarizing the material and organizing it in a logical fashion. TRAINEE POSITION: Applicants not meeting full qualifications for the GS-11 position indicated above may be considered for GS-09 trainee, if qualified. Statement-of-Difference of qualification requirements for each are indicated. If appointed as trainee, the selectee may be non-competitively promoted to GS-11 upon meeting full qualifications and recommendations of supervisor. Your qualifications will be evaluated on the following competencies:\nCustomer ServiceHardwareInterpersonal SkillsOperating Systems",
+                    "PositionRemuneration": [{
+                        "MinimumRange": "57811.0000",
+                        "MaximumRange": "88194.0000",
+                        "RateIntervalCode": "Per Year"
+                    }],
+                    "PositionStartDate": "2017-06-26",
+                    "PositionEndDate": "2018-06-25",
+                    "PublicationStartDate": "2017-06-26",
+                    "ApplicationCloseDate": "2018-06-25",
+                    "PositionFormattedDescription": [{
+                        "Label": "Dynamic Teaser",
+                        "LabelDescription": "Hit highlighting for keyword searches."
+                    }],
+                    "UserArea": {
+                        "Details": {
+                            "JobSummary": "**Announcement was amended. This announcement establishes an open continuous announcement (until filled) of eligible applicants to be considered for this position. The \"what to expect next\" area of the announcement provides additional information on the referral process for this type of announcement. This IT Specialist (CUSTSPT), is located in an information management organization and is part of the CA JFHQ J6, National Guard. The National Guard is the oldest component of the Armed Forces of the United States. Since the earliest American colonial days, citizens have joined together for collective defense. We have a proud tradition of coming to the aid of our friends and neighbors in times of serious emergencies. Join our National Guard team and serve your nation, your states and your community! NATIONAL GUARD MEMBERSHIP IS REQUIRED: This is an excepted service position that requires membership in a compatible military assignment in the National Guard. Selectee will be required to wear the military uniform. Acceptance of an excepted service position constitutes concurrence with these requirements as a condition of employment. Applicants who are not currently a member of the National Guard must be eligible for immediate membership and employment in the National Guard in the military grade listed in this announcement. MILITARY MEMBERS WITH BONUSES: Upon acceptance of a military technician position military members who are currently receiving a military Reenlistment/Extension Bonus (REB) or GI Bill-SR Kicker may lose incentive eligibility and may be subject to termination or suspension of incentive (includes indefinite and temporary technicians on assignment for more than 180 days in any continuous 12-month period).",
+                            "WhoMayApply": {
+                                "Name": "Current military members of the Army National Guard, Army Reserve or Regular Army.",
+                                "Code": "15523"
+                            },
+                            "LowGrade": "9",
+                            "HighGrade": "11"
+                        },
+                        "IsRadialSearch": false
+                    }
+                },
+                "RelevanceRank": 0
+            },
+            {
+                "MatchedObjectId": "473474300",
+                "MatchedObjectDescriptor": {
+                    "PositionID": "NE72210-15-1982073K7XXXXXXE",
+                    "PositionTitle": "IT SPECIALIST/IT PROJECT MANAGER",
+                    "PositionURI": "https://www.usajobs.gov:443/GetJob/ViewDetails/473474300",
+                    "ApplyURI": [
+                        "https://www.usajobs.gov:443/GetJob/ViewDetails/473474300?PostingChannelID=RESTAPI"
+                    ],
+                    "PositionLocationDisplay": "Multiple Locations",
+                    "PositionLocation": [{
+                            "LocationName": "China Lake, California",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "California",
+                            "CityName": "China Lake, California",
+                            "Longitude": -117.67,
+                            "Latitude": 35.6506
+                        },
+                        {
+                            "LocationName": "Point Mugu, California",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "California",
+                            "CityName": "Point Mugu, California",
+                            "Longitude": -119.06,
+                            "Latitude": 34.08556
+                        },
+                        {
+                            "LocationName": "San Diego, California",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "California",
+                            "CityName": "San Diego, California",
+                            "Longitude": -117.162,
+                            "Latitude": 32.7157
+                        },
+                        {
+                            "LocationName": "Orlando Naval Warfare Center, Florida",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Florida",
+                            "CityName": "Orlando Naval Warfare Center, Florida",
+                            "Longitude": -81.3112,
+                            "Latitude": 28.4391
+                        },
+                        {
+                            "LocationName": "Patuxent River, Maryland",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Maryland",
+                            "CityName": "Patuxent River, Maryland",
+                            "Longitude": -76.7301,
+                            "Latitude": 38.756
+                        },
+                        {
+                            "LocationName": "Saint Inigoes, Maryland",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Maryland",
+                            "CityName": "Saint Inigoes, Maryland",
+                            "Longitude": -76.39059,
+                            "Latitude": 38.147934
+                        },
+                        {
+                            "LocationName": "Cherry Point, North Carolina",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "North Carolina",
+                            "CityName": "Cherry Point, North Carolina",
+                            "Longitude": -76.82216,
+                            "Latitude": 34.94016
+                        },
+                        {
+                            "LocationName": "Arlington, Virginia",
+                            "CountryCode": "United States",
+                            "CountrySubDivisionCode": "Virginia",
+                            "CityName": "Arlington, Virginia",
+                            "Longitude": -77.0862961,
+                            "Latitude": 38.89051
+                        }
+                    ],
+                    "OrganizationName": "Naval Air Systems Command",
+                    "DepartmentName": "Department of the Navy",
+                    "JobCategory": [{
+                        "Name": "Information Technology Management",
+                        "Code": "2210"
+                    }],
+                    "JobGrade": [{
+                        "Code": "GS"
+                    }],
+                    "PositionSchedule": [{
+                        "Name": "Full Time",
+                        "Code": "1"
+                    }],
+                    "PositionOfferingType": [{
+                        "Name": "Permanent",
+                        "Code": "15317"
+                    }],
+                    "QualificationSummary": "In order to qualify for this position, yourresume must provide\nsufficient experience and/or education, knowledge, skills, and abilities, to\nperform the duties of the specific position for which you are being considered. Your resume is the key means we have for evaluating your skills,\nknowledge, and abilities, as they relate to this position. Therefore, we\nencourage you to be clear and specific when describing your experience. Your resumemustdemonstrate at least one year of specialized\nexperience at or equivalent to the GS-13 grade level or pay band in the Federal service or\nequivalent experience in the private or public sector. Specialized experience is: developing\nnew theories, concepts, principles, standards and methods in the specialty\narea; advise other IT experts throughout the command on a variety of situations\nand issues that involve applying or adapting new theories, concepts,\nprinciples, standards, methods or practice and serve as senior expert; AND IT-related experience demonstrating each of the\nfollowing four competencies: 1) Attention to Detail - Is thorough when\nperforming work and conscientious about attending to detail; 2) Customer\nService - Works with clients and customers (that is, any individuals who use or\nreceive the services or products that your work unit produces, including the\ngeneral public, individuals who work in the agency, other agencies, or\norganizations outside the Government) to assess their needs, provide\ninformation or assistance, resolve their problems, or satisfy their\nexpectations; knows about available products and services; is committed to\nproviding quality products and services; 3) Oral Communication - Expresses\ninformation (for example, ideas or facts) to individuals or groups effectively,\ntaking into account the audience and nature of the information (for example,\ntechnical, sensitive, controversial); makes clear and convincing oral\npresentations; listens to others, attends to nonverbal cues, and responds\nappropriately; 4) Problem Solving - Identifies problems; determines accuracy\nand relevance of information; uses sound judgment to generate and evaluate\nalternatives, and to make recommendations. Your resumemustdemonstrate at least one year of specialized\nexperience at or equivalent to the GS-14 grade level or pay band in the Federal service or\nequivalent experience in the private or public sector. Specialized experience is: developing new theories, concepts, principles, standards and methods in the specialty area; advise other IT experts throughout the command on a variety of situations and issues that involve applying or adapting new theories, concepts, principles, standards, methods or practice and serve as senior expert and consultant to agency management officials advising on integrating IT programs with other programs AND IT-related experience demonstrating each of the following four competencies: 1) Attention to Detail - Is thorough when performing work and conscientious about attending to detail; 2) Customer Service - Works with clients and customers (that is, any individuals who use or receive the services or products that your work unit produces, including the general public, individuals who work in the agency, other agencies, or organizations outside the Government) to assess their needs, provide information or assistance, resolve their problems, or satisfy their expectations; knows about available products and services; is committed to providing quality products and services; 3) Oral Communication - Expresses information (for example, ideas or facts) to individuals or groups effectively, taking into account the audience and nature of the information (for example, technical, sensitive, controversial); makes clear and convincing oral presentations; listens to others, attends to nonverbal cues, and responds appropriately; 4) Problem Solving - Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations. Additional qualification information can be\nfound from the following Office of Personnel Management web site: https://www.opm.gov/policy-data-oversight/classification-qualifications/general-schedule-qualification-standards/2200/information-technology-it-management-series-2210-alternative-a/ You will receive credit for all qualifying experience, including volunteer and part time experience. You must clearly identify the duties and responsibilities in each position held and the total number of hours per week. Experience refers to paid and unpaid experience, including volunteer work done through National Service programs (e.g., professional, philanthropic, religious, spiritual, community, student, social). Volunteer work helps build critical competencies, knowledge, and skills and can provide valuable training and experience that translates directly to paid employment. As part of the application process, you must complete and submit an occupational questionnaire. To preview this questionnaire and determine if your experience matches the required skills for this position, click the following link: View Assessment Questions Please follow all instructions carefully. Errors or omissions may affect your rating and/or appointment eligibility.",
+                    "PositionRemuneration": [{
+                        "MinimumRange": "101409.0",
+                        "MaximumRange": "155073.0",
+                        "RateIntervalCode": "Per Year"
+                    }],
+                    "PositionStartDate": "2017-07-01",
+                    "PositionEndDate": "2017-12-08",
+                    "PublicationStartDate": "2017-07-01",
+                    "ApplicationCloseDate": "2017-12-08",
+                    "PositionFormattedDescription": [{
+                        "Label": "Dynamic Teaser",
+                        "LabelDescription": "Hit highlighting for keyword searches."
+                    }],
+                    "UserArea": {
+                        "Details": {
+                            "JobSummary": "The selectee for this position serves as an IT Specialist and/or IT Project Manager within Naval Air Systems Command THIS IS AN EXPEDITED HIRING AUTHORITY ANNOUNCEMENT.\nThe Duncan Hunter National Defense Authorization Act (NDAA) FY 2009\nprovides that the Secretary of Defense can designate acquisition positions as\nshortage positions and recruit and appoint highly qualified persons to these\npositions. This announcement is open to\naccept resumes from candidates interested in helping the Department of the Navy\nmeet our mission requirements for the acquisition of systems, equipment and\nfacilities. This public notice announcement is for anticipated vacancies to be\nfilled under the Expedited Hiring Authority (EHA) for acquisition positions\nlocated at Department of Navy installations identified in this public notice. Positions\nmay be filled as permanent with a full-time work schedule. Pay will vary by\ngeographic location. There may or may not be actual/projected vacancies at the\ntime you submit your application. Please read this Public Notice in its\nentirety prior to submitting your application for consideration. There may or may not be actual vacancies filled\nfrom this register. As such, Notices of Results (NORs) may or may not be sent\nto applicants who apply to this announcement. Based on the various locations of this announcement, vacancies can be filled as GS-14/15 or DS-06 pay band (equivalent to GS-14/15).To view additional salary information based on the various locations and pay grade/pay bands, please visit the following: http://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2017/general-schedule/",
+                            "WhoMayApply": {
+                                "Name": "United States Citizens",
+                                "Code": "15514"
+                            },
+                            "LowGrade": "14",
+                            "HighGrade": "15"
+                        },
+                        "IsRadialSearch": false
+                    }
+                },
+                "RelevanceRank": 0
+            },
+            {
+                "MatchedObjectId": "473644500",
+                "MatchedObjectDescriptor": {
+                    "PositionID": "HHS-CDC-DH-17-1982388",
+                    "PositionTitle": "IT Specialist (INFOSEC)",
+                    "PositionURI": "https://www.usajobs.gov:443/GetJob/ViewDetails/473644500",
+                    "ApplyURI": [
+                        "https://www.usajobs.gov:443/GetJob/ViewDetails/473644500?PostingChannelID=RESTAPI"
+                    ],
+                    "PositionLocationDisplay": "Atlanta, Georgia",
+                    "PositionLocation": [{
+                        "LocationName": "Atlanta, Georgia",
+                        "CountryCode": "United States",
+                        "CountrySubDivisionCode": "Georgia",
+                        "CityName": "Atlanta, Georgia",
+                        "Longitude": -84.39111,
+                        "Latitude": 33.7483139
+                    }],
+                    "OrganizationName": "Centers for Disease Control and Prevention",
+                    "DepartmentName": "Department of Health And Human Services",
+                    "JobCategory": [{
+                        "Name": "Information Technology Management",
+                        "Code": "2210"
+                    }],
+                    "JobGrade": [{
+                        "Code": "GS"
+                    }],
+                    "PositionSchedule": [{
+                        "Name": "Full Time",
+                        "Code": "1"
+                    }],
+                    "PositionOfferingType": [{
+                        "Name": "Permanent",
+                        "Code": "15317"
+                    }],
+                    "QualificationSummary": "Applicants must have at least one year of specialized experience\nat or equivalent to the next lower grade level in the Federal service as\ndefined in the next paragraphs.&#160; Specialized experience is experience\nwhich is directly related to the position which has equipped the applicant with\nthe particular knowledge, skills and abilities (KSAs) to successfully perform\nthe duties of the position. GS-11:&#160; Applicants must have one year of specialized experience at\na level of difficulty and responsibility equivalent to the GS-09 grade level in\nthe Federal service which includes experience in maintaining the\nconfidentiality, integrity, and availability of automated data processing\noperations through performance of IT security and information assurance\nactivities. GS-12:&#160; Applicants must have one year of specialized experience at\na level of difficulty and responsibility equivalent to the GS-11 grade level in\nthe Federal service maintaining the confidentiality, integrity, and\navailability of automated data processing operations through performance of IT\nsecurity and information assurance activities; participating in identification\nand analyses of information security policy issues, deficiencies, and problem\nareas through review and analyses of reports, and contacts. Additional Qualifying experience for the GS-11/12 grade level\nrequires IT-related experience that demonstrated each of the following four\ncompetencies:&#160; Attention to detail; customer service; oral communications;\nand problem solving. &#160; Attention to Detail - Is thorough when performing work and conscientious about attending to detail. Customer Service - Works with clients and customers (that is, any individuals who use or receive the services or products that your work unit produces, including the general public, individuals who work in the agency, other agencies, or organizations outside the Government) to assess their needs, provide information or assistance, resolve their problems, or satisfy their expectations; knows about available products and services; is committed to providing quality products and services. Oral Communication - Expresses information (for example, ideas or facts) to individuals or groups effectively, taking into account the audience and nature of the information (for example, technical, sensitive, controversial); makes clear and convincing oral presentations; listens to others, attends to nonverbal cues, and responds appropriately. Problem Solving - Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations. SUBSTITUTION OF EDUCATION\nFOR EXPERIENCE:\nFor the GS-11 level: 3 full academic years of progressively higher level graduate\neducation or Ph.D. or equivalent Doctoral Degree There is no education substitution for the GS-12 level. COMBINATION OF EDUCATION AND EXPERIENCE:\nYour education and work experience may be combined to meet the\nqualification requirements of this position at the GS-11 level.",
+                    "PositionRemuneration": [{
+                        "MinimumRange": "63161.0",
+                        "MaximumRange": "98420.0",
+                        "RateIntervalCode": "Per Year"
+                    }],
+                    "PositionStartDate": "2017-08-18",
+                    "PositionEndDate": "2018-02-16",
+                    "PublicationStartDate": "2017-08-18",
+                    "ApplicationCloseDate": "2018-02-16",
+                    "PositionFormattedDescription": [{
+                        "Label": "Dynamic Teaser",
+                        "LabelDescription": "Hit highlighting for keyword searches."
+                    }],
+                    "UserArea": {
+                        "Details": {
+                            "JobSummary": "The Centers for Disease Control and Prevention (CDC) is the agency Americans trust with their lives. As a global leader in public health, CDC is the nation's premier health promotion, prevention, and preparedness agency. Whether we are protecting the American people from public health threats, researching emerging diseases, or mobilizing public health programs with our domestic and international partners, we rely on our employees to make a real difference in the health and well-being of people here and around the world. This position is being filled through the Direct Hire Authority for this occupation and is open to all US Citizens.All applicants who meet the basic qualification requirements will be forwarded to the Selecting Official for consideration. Traditional rating and ranking of applications does not apply. Applications received as a result of job fairs, recruitment events, and emergency hiring mechanisms in support of this hiring initiative will also be accepted during the duration of the direct-hire authority.\nThis announcement is being used to create an inventory of qualified applicants for IT Specialist (INFOSEC) positions and will be used to fill immediate and future vacancies.This\nposition is located in the Department of Health and Human Services (DHHS),\nCenters for Disease Control and Prevention (CDC), Office of the Director (OD),\nOffice of the Chief Operating Officer (OCOO), Office of the Chief Information\nOfficer (OCIO), Office of the Chief Information Security Officer (OCISO),\nAtlanta, Georgia. Additional selections may be made within the same geographical location. CDC is an Equal Opportunity Employer.",
+                            "WhoMayApply": {
+                                "Name": "United States Citizens",
+                                "Code": "15514"
+                            },
+                            "LowGrade": "11",
+                            "HighGrade": "12"
+                        },
+                        "IsRadialSearch": false
+                    }
+                },
+                "RelevanceRank": 0
+            }
+        ],
+        "UserArea": {
+            "NumberOfPages": "20",
+            "IsRadialSearch": false
+        }
+    }
+}

@@ -11,6 +11,7 @@ import (
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
+	spinner "github.com/janeczku/go-spinner"
 	"github.com/urfave/cli"
 )
 
@@ -61,12 +62,12 @@ type jobObject struct {
 	PositionLocation     []location
 }
 
-type searchObject struct {
-	SearchResultItems []results
-}
-
 type results struct {
 	MatchedObjectDescriptor jobObject
+}
+
+type searchObject struct {
+	SearchResultItems []results
 }
 
 type jsonObject struct {
@@ -78,11 +79,6 @@ func scrape(list jobs, out *csv.Writer) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	/*pos := make([]string, 0)  // position title
-	app := make([]string, 0)  // application link
-	loc := make([]string, 0)  // location
-	emp := make([]string, 0)  // employment type and pay i.e. full time / part time
-	desc := make([]string, 0) // job description*/
 
 	doc.Find(".job-item").Each(func(i int, s *goquery.Selection) {
 		title := s.Find("a").Text()
@@ -146,14 +142,13 @@ func query() {
 	checkError("response error", err)
 	body, err := ioutil.ReadAll(resp.Body)
 	checkError("read error", err)
-	//fmt.Print(string(body))
+	fmt.Print(string(body))
 	var j jsonObject
 	err = json.Unmarshal(body, &j)
 	checkError("json error", err)
-	fmt.Print(j)
-
-	//m := f.(map[string]interface{})
-	//fmt.Println(m)
+	/*b, err := json.Marshal(j)
+	checkError("json error", err)
+	fmt.Print(string(b))*/
 
 	defer resp.Body.Close()
 }
@@ -172,14 +167,14 @@ func main() {
 	app.Name = "autohunt"
 	app.Usage = "Automatically search for jobs/internships in cyber security field"
 	app.Action = func(c *cli.Context) error {
-		//fmt.Printf("searching for... %q\n", c.Args().Get(0))
-		//s := spinner.StartNew("This wont take long...")
-		//fmt.Println()
+		fmt.Printf("searching for... %q\n", c.Args().Get(0))
+		s := spinner.StartNew("This wont take long...")
+
 		//time.Sleep(5 * time.Second) // something more productive here
 		// scrape(nonFedJobs, writer)
 		query()
 
-		//s.Stop()
+		s.Stop()
 		return nil
 	}
 
