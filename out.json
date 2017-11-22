@@ -1,0 +1,132 @@
+{
+    "LanguageCode": "EN",
+    "SearchParameters": {},
+    "SearchResult": {
+        "SearchResultCount": 25,
+        "SearchResultCountAll": 100,
+        "SearchResultItems": [{
+            "MatchedObjectId": "21947200",
+            "MatchedObjectDescriptor": {
+                "PositionID": "SW62210-05-1716110PB411413H",
+                "PositionTitle": "IT SPECIALIST (INFOSEC/NETWORK)",
+                "PositionURI": "https://www.dev.usajobs.gov:443/GetJob/ViewDetails/21947200",
+                "ApplyURI": [
+                    "https://www.dev.usajobs.gov:443/GetJob/ViewDetails/21947200?PostingChannelID=RESTAPI"
+                ],
+                "PositionLocation": [{
+                    "LocationName": "Point Loma Complex, San Diego, California",
+                    "CountryCode": "United States",
+                    "CountrySubDivisionCode": "California",
+                    "CityName": "Point Loma Complex, San Diego, California",
+                    "Longitude": -117.194382,
+                    "Latitude": 32.7042961
+                }],
+                "OrganizationName": "Space and Naval Warfare Systems Command",
+                "DepartmentName": "Department of the Navy",
+                "JobCategory": [{
+                        "Name": "Information Technology",
+                        "Code": "2200"
+                    },
+                    {
+                        "Name": "Information Technology Management",
+                        "Code": "2210"
+                    }
+                ],
+                "JobGrade": [{
+                    "Code": "NO"
+                }],
+                "PositionSchedule": [{
+                    "Name": "Full Time",
+                    "Code": "1"
+                }],
+                "PositionOfferingType": [{
+                    "Name": "Permanent",
+                    "Code": "15317"
+                }],
+                "QualificationSummary": "...",
+                "PositionRemuneration": [{
+                    "MinimumRange": "92108",
+                    "MaximumRange": "119746",
+                    "RateIntervalCode": "Per Year"
+                }],
+                "PositionStartDate": "2016-06-05T00:00:00Z",
+                "PositionEndDate": "2016-12-01T00:00:00Z",
+                "PublicationStartDate": "2016-06-05T00:00:00Z",
+                "ApplicationCloseDate": "2016-12-01T00:00:00Z",
+                "PositionFormattedDescription": [{
+                    "Content": "This announcement is being used to recruit qualified individuals, under the Office of Personnel Management (OPM) Direct Hire Authority, authorized by 5 United States Code (U.S.C.), Section 3304 and 5 Code of Federal Regulations (CFR) Part 337, Subpart B. The Rule of Three, Veteran's Preference and t",
+                    "Label": "Dynamic Teaser",
+                    "LabelDescription": "Hit highlighting for keyword searches."
+                }],
+                "UserArea": {
+                    "Details": {
+                        "MajorDuties": "Major Duties and Responsibilities: ...",
+                        "Education": "EDUCATION: ...",
+                        "Requirements": "",
+                        "Evaluations": "...",
+                        "HowToApply": "...",
+                        "WhatToExpectNext": "...",
+                        "RequiredDocuments": "...",
+                        "Benefits": "...",
+                        "BenefitsUrl": "",
+                        "OtherInformation": "...",
+                        "KeyRequirements": [],
+                        "JobSummary": "...",
+                        "WhoMayApply": {
+                            "Name": "United States Citizens",
+                            "Code": "15514"
+                        },
+                        "LowGrade": "05",
+                        "HighGrade": "05",
+                        "SubAgencyName": "Space and Naval Warfare System Command Pacific",
+                        "OrganizationCodes": "DD/NV/NV39"
+                    },
+                    "IsRadialSearch": false
+                }
+            },
+            "RelevanceRank": 0.0
+        }],
+        "UserArea": {
+            "Refiners": {
+                "Organization": [{
+                    "RefinementName": "AG/AG02",
+                    "RefinementCount": "1",
+                    "RefinementToken": "^AG/AG02$",
+                    "RefinementValue": "AG/AG02"
+                }],
+                "GradeBucket": [{
+                    "RefinementName": "12",
+                    "RefinementCount": "46",
+                    "RefinementToken": "^12$",
+                    "RefinementValue": "12"
+                }],
+                "SalaryBucket": [{
+                    "RefinementName": "75",
+                    "RefinementCount": "80",
+                    "RefinementToken": "^75$",
+                    "RefinementValue": "75"
+                }],
+                "PositionOfferingTypeCode": [{
+                    "RefinementName": "15317",
+                    "RefinementCount": "86",
+                    "RefinementToken": "15317",
+                    "RefinementValue": "15317"
+                }],
+                "PositionScheduleTypeCode": [{
+                    "RefinementName": "1",
+                    "RefinementCount": "100",
+                    "RefinementToken": "1",
+                    "RefinementValue": "1"
+                }],
+                "JobCategoryCode": [{
+                    "RefinementName": "2200/2210",
+                    "RefinementCount": "100",
+                    "RefinementToken": "^2200/2210$",
+                    "RefinementValue": "2200/2210"
+                }]
+            },
+            "NumberOfPages": "4",
+            "IsRadialSearch": false
+        }
+    }
+}

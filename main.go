@@ -11,7 +11,6 @@ import (
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
-	spinner "github.com/janeczku/go-spinner"
 	"github.com/urfave/cli"
 )
 
@@ -28,11 +27,11 @@ func checkError(message string, err error) {
 }
 
 type jobs struct {
-	pos  []string `csv:"Position"`
-	link []string `csv:"Application Link"`
-	loc  []string `csv:"Location"`
-	emp  []string `csv:"Employment Type"`
-	desc []string `csv:"Description"`
+	pos  []string //`csv:"Position"`
+	link []string //`csv:"Application Link"`
+	loc  []string //`csv:"Location"`
+	emp  []string //`csv:"Employment Type"`
+	desc []string //`csv:"Description"`
 }
 
 func (j *jobs) MarshalCSV(id int) ([]string, error) {
@@ -42,8 +41,36 @@ func (j *jobs) MarshalCSV(id int) ([]string, error) {
 	line = append(line, j.loc[id])
 	line = append(line, j.emp[id])
 	line = append(line, j.desc[id])
-	//line := fmt.Sprintf("%s , %s , %s , %s , %s", j.pos[id], j.link[id], j.loc[id], j.emp[id], j.desc[id])
 	return line, nil
+}
+
+type location struct {
+	LocationName           string
+	CountryCode            string
+	CountrySubDivisionCode string
+	CityName               string
+}
+
+type jobObject struct {
+	PositionTitle        string
+	PositionURI          string
+	ApplyURI             []string
+	QualificationSummary string
+	OrganizationName     string
+	DepartmentName       string
+	PositionLocation     []location
+}
+
+type searchObject struct {
+	SearchResultItems []results
+}
+
+type results struct {
+	MatchedObjectDescriptor jobObject
+}
+
+type jsonObject struct {
+	SearchResult searchObject
 }
 
 func scrape(list jobs, out *csv.Writer) {
@@ -105,10 +132,9 @@ func scrape(list jobs, out *csv.Writer) {
 }
 
 func query() {
-	req, err := http.NewRequest("GET", "https://data.usajobs.gov/api/search?JobCategoryCode=2210", nil)
-	if err != nil {
-		// handle err
-	}
+
+	req, err := http.NewRequest("GET", "https://data.usajobs.gov/api/search?JobCategoryCode=2210&Keyword=", nil)
+	checkError("request error", err)
 	req.Header.Set("Host", "data.usajobs.gov")
 	//req.Header.Set("User-Agent", os.ExpandEnv("axp141330@utdallas.edu"))
 	//req.Header.Set("Authorization-Key", os.ExpandEnv("YbqpIDaiMNCy7BnTbVVaSevXNgzsfl7S1KwA9beNtro="))
@@ -117,26 +143,23 @@ func query() {
 	req.Header.Set("Authorization-Key", "YbqpIDaiMNCy7BnTbVVaSevXNgzsfl7S1KwA9beNtro=") // I know Probably should hide this but ehh
 
 	resp, err := http.DefaultClient.Do(req)
-	if err != nil {
-		log.Print("responce Error")
-	}
+	checkError("response error", err)
 	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		log.Print("read error")
-	}
-	var f interface{}
-	err = json.Unmarshal(body, &f)
-	if err != nil {
-		log.Print("json error")
-	}
-	m := f.(map[string]interface{})
-	fmt.Println(m)
+	checkError("read error", err)
+	//fmt.Print(string(body))
+	var j jsonObject
+	err = json.Unmarshal(body, &j)
+	checkError("json error", err)
+	fmt.Print(j)
+
+	//m := f.(map[string]interface{})
+	//fmt.Println(m)
 
 	defer resp.Body.Close()
 }
 func main() {
 
-	nonFedJobs := jobs{} // hold jobs found for non federal jobs
+	//nonFedJobs := jobs{} // hold jobs found for non federal jobs
 
 	file, err := os.Create("autohunt_results.csv")
 	checkError("Cannot write to file", err)
@@ -149,18 +172,17 @@ func main() {
 	app.Name = "autohunt"
 	app.Usage = "Automatically search for jobs/internships in cyber security field"
 	app.Action = func(c *cli.Context) error {
-		fmt.Printf("searching for... %q\n", c.Args().Get(0))
-		s := spinner.StartNew("This wont take long...")
-		fmt.Println()
-		scrape(nonFedJobs, writer)
-
+		//fmt.Printf("searching for... %q\n", c.Args().Get(0))
+		//s := spinner.StartNew("This wont take long...")
+		//fmt.Println()
 		//time.Sleep(5 * time.Second) // something more productive here
-		s.Stop()
+		// scrape(nonFedJobs, writer)
+		query()
+
+		//s.Stop()
 		return nil
 	}
 
 	app.Run(os.Args)
-
-	//query s
 
 }
