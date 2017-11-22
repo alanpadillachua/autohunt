@@ -7,14 +7,14 @@ In short autohunt will be a command line tool for SFS recipients, that compiles 
 1. Use public APIs (for sites that have them) to submit queries to and filter jobs to the user needs. 
 2. Have a built in web scrapper that targets sites to pick up Job Posting information (position, application link, day posted, closing date, etc)
 
-### Job Sites (TO BE) Supported 
+### Job Sites Supported 
 
 1. usajobs.gov
 2. governmentjobs.com
 
 ### Milestones
 
-- [ ] Working prototype
+- [*] Working prototype
 - [ ] Add more job sites to check
 - [ ] Add command line options
 - [ ] Add documentation
