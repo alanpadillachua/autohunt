@@ -14,7 +14,7 @@ In short autohunt will be a command line tool for SFS recipients, that compiles 
 
 ### Milestones
 
-- [*] Working prototype
+- [x] Working prototype
 - [ ] Add more job sites to check
 - [ ] Add command line options
 - [ ] Add documentation
