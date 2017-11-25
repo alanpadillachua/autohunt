@@ -45,6 +45,10 @@ func (j *jobs) MarshalCSV(id int) ([]string, error) {
 	return line, nil
 }
 
+type jobDetails struct {
+	Name string
+}
+
 type location struct {
 	LocationName           string
 	CountryCode            string
@@ -60,6 +64,7 @@ type jobObject struct {
 	OrganizationName     string
 	DepartmentName       string
 	PositionLocation     []location
+	PositionOfferingType []jobDetails
 }
 
 type results struct {
@@ -74,6 +79,15 @@ type jsonObject struct {
 	SearchResult searchObject
 }
 
+func (j *jsonObject) MarshalCSV(id int) ([]string, error) {
+	line := make([]string, 0)
+	line = append(line, j.SearchResult.SearchResultItems[id].MatchedObjectDescriptor.PositionTitle)
+	line = append(line, j.SearchResult.SearchResultItems[id].MatchedObjectDescriptor.ApplyURI[0])
+	line = append(line, j.SearchResult.SearchResultItems[id].MatchedObjectDescriptor.PositionLocation[0].CityName)
+	line = append(line, j.SearchResult.SearchResultItems[id].MatchedObjectDescriptor.PositionOfferingType[0].Name)
+	line = append(line, j.SearchResult.SearchResultItems[id].MatchedObjectDescriptor.QualificationSummary)
+	return line, nil
+}
 func scrape(list jobs, out *csv.Writer) {
 	doc, err := goquery.NewDocument("https://www.governmentjobs.com/jobs?page=1&keyword=cyber+security+&location=")
 	if err != nil {
@@ -127,7 +141,7 @@ func scrape(list jobs, out *csv.Writer) {
 
 }
 
-func query() {
+func query(out *csv.Writer) {
 
 	req, err := http.NewRequest("GET", "https://data.usajobs.gov/api/search?JobCategoryCode=2210&Keyword=", nil)
 	checkError("request error", err)
@@ -142,20 +156,24 @@ func query() {
 	checkError("response error", err)
 	body, err := ioutil.ReadAll(resp.Body)
 	checkError("read error", err)
-	fmt.Print(string(body))
+	//fmt.Print(string(body))
 	var j jsonObject
 	err = json.Unmarshal(body, &j)
 	checkError("json error", err)
-	/*b, err := json.Marshal(j)
-	checkError("json error", err)
-	fmt.Print(string(b))*/
-
+	for i := range j.SearchResult.SearchResultItems {
+		csvContent, err := j.MarshalCSV(i) // Get all clients as CSV string
+		checkError("MarshalCSV error", err)
+		err = out.Write(csvContent)
+		checkError("Write to File error", err)
+		/*b, err := json.Marshal(j)
+		checkError("json error", err)
+		fmt.Print(string(b))*/
+	}
 	defer resp.Body.Close()
 }
 func main() {
 
-	//nonFedJobs := jobs{} // hold jobs found for non federal jobs
-
+	nonFedJobs := jobs{} // hold jobs found for non federal jobs
 	file, err := os.Create("autohunt_results.csv")
 	checkError("Cannot write to file", err)
 	defer file.Close()
@@ -168,11 +186,13 @@ func main() {
 	app.Usage = "Automatically search for jobs/internships in cyber security field"
 	app.Action = func(c *cli.Context) error {
 		fmt.Printf("searching for... %q\n", c.Args().Get(0))
-		s := spinner.StartNew("This wont take long...")
+		s := spinner.StartNew("This wont take long ...")
+		//time.Sleep(1 * time.Second)
+		//fmt.Println("")
 
 		//time.Sleep(5 * time.Second) // something more productive here
-		// scrape(nonFedJobs, writer)
-		query()
+		scrape(nonFedJobs, writer)
+		query(writer)
 
 		s.Stop()
 		return nil
