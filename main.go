@@ -195,6 +195,7 @@ func main() {
 		query(writer)
 
 		s.Stop()
+		fmt.Println("Results can be found in autohunt_results.csv")
 		return nil
 	}
 
